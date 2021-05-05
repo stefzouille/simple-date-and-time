@@ -1,6 +1,6 @@
 
 import Time from './components/Time'
- import './App.css';
+  import './App.css';
 
 
 
@@ -8,17 +8,17 @@ import Time from './components/Time'
 
 function App() {
   return (
-    <div className="App p-3 ">
-      <header>
-        <div>
+    <div className="App">
+      <header >
+        <div >
        <h1>JUST A SIMPLE DATE AND HOUR :</h1> 
        </div>
-      </header>
       <div >By c0c0nut 0x9</div>
      <section >
-       
       <Time />
        </section> 
+      </header>
+       
       
       
     
