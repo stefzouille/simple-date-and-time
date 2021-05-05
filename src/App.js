@@ -1,5 +1,6 @@
 
 import Time from './components/Time'
+import DateTime from './components/TimeHooks'
 import "bootstrap/dist/css/bootstrap.css"
   // import './App.css';
 
@@ -22,6 +23,11 @@ function App() {
             <p className="text-secondary">today we are :</p>
               <Time />
           </div>
+          <hr/>
+          <div>
+              <DateTime />
+          </div>
+
         </section> 
           <hr/>
       </header>
